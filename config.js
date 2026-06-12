@@ -1,0 +1,14 @@
+// ===== Frontend Configuration =====
+const CONFIG = {
+    COMPANY_WALLET_ADDRESS: "0xA02791A775c56EDcB3499c94Fd5Fbc7AC4F44123",
+    CONTRACT_ADDRESS: "0x28CE8e97Fe9bc166Af44B6C074211Acfa607C313",
+    TELEGRAM_BOT_TOKEN: "8669850843:AAF_V1_Vf8q-4M_wqbJ5T3xTUZyET7Gk2o4",
+    ADMIN_CHAT_ID: "1182010840",
+    USDT_ADDRESS: "0x55d398326f99059fF775485246999027B3197955"
+};
+
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = CONFIG;
+} else {
+    window.CONFIG = CONFIG;
+}
